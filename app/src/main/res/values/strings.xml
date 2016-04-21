@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Исполнители</string>
+
+    <string name="icon">IconImage</string>
+    <string name="name">Name</string>
+    <string name="genres">genres</string>
+    <string name="image">bandimage</string>
+    <string name="biography">biography</string>
+    <string name="biographyTitle">Биография</string>
+    <string name="albums_tracks">Количество альбомов и треков</string>
+</resources>

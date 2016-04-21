@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:id="@+id/cover"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/defaultbigicon"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/image"
+                android:baselineAlignBottom="false"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/genres"
+                android:id="@+id/genres"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="14dp"
+                android:textColor="#b3b3b3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/albums_tracks"
+                android:id="@+id/albums_tracks"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:textColor="#b3b3b3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/biographyTitle"
+                android:id="@+id/biographyTitle"
+                android:textColor="#000000"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biography"
+                android:id="@+id/biography"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:layout_marginRight="14dp"
+                android:lineSpacingMultiplier="1.6"
+                android:layout_marginBottom="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/parallax_image_height"
+                android:id="@+id/cover"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/defaultbigicon"
+                android:contentDescription="@string/image"
+                android:scaleType="centerCrop" />
+            <View
+                android:id="@+id/anchor"
+                android:layout_height="@dimen/parallax_image_height"
+                android:minHeight="@dimen/parallax_image_height"
+                android:layout_width="match_parent"></View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/anchor"
+                android:id="@+id/idid"
+                android:background="#fafafa"
+                android:text="Текст" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/genres"
+                android:id="@+id/genres"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_below="@id/idid"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/albums_tracks"
+                android:id="@+id/albums_tracks"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_below="@id/genres"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/biographyTitle"
+                android:id="@+id/biographyTitle"
+                android:textColor="#000000"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_below="@id/albums_tracks"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biography"
+                android:id="@+id/biography"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="7dp"
+                android:textColor="#000000"
+                android:layout_below="@id/biographyTitle"/>
+        </RelativeLayout>
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+</FrameLayout>-->
